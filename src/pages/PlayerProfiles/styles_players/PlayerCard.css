@@ -1,0 +1,32 @@
+
+.playerTitle:hover{
+    color: #A769C9 !important;
+}
+
+.card-title {
+    color:#be66eb !important;
+   
+}
+.card-title:hover{
+    color:#A769C9 !important;
+}
+
+.playerCard {
+    background-color: #ffffff !important;
+    width: 200px;
+    padding: 10px;
+    color: #62829a;
+    border-radius: 15px;
+    border-color: transparent transparent transparent transparent !important;
+    box-shadow: 6px 6px 16px 8px #d8d6d6;
+}
+
+.box {
+    display:flex;
+    flex-direction: column;
+}
+   
+.span{
+    color: #be66eb;
+
+}

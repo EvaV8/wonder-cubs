@@ -1,0 +1,54 @@
+
+/* ------------------------------LIONESSES SITE----------------------------------------- */
+/* Some basic styles for homework-2.
+Will change when working on our actual site */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@400;500;700&family=Ubuntu:wght@300;400&display=swap');
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-purple: #A769C9;
+  --light-purple:#dbbbf1;
+  --light-green: #48ada4;
+  --dark-green: #3C9089;
+  --cream: #f6f0fa;
+  --yellow: #FACE48;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--cream);
+  margin : 0;
+  padding:0;
+}
+
+p {
+  margin-top:0;
+  margin-bottom: 0;
+}
+
+/* .main_container{
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+
+
+
+
+
+
+
+

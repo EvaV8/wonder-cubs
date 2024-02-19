@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+/*colors*/
+:root {
+    --dark-purple: #A769C9;
+    --light-purple: #dbbbf1;
+    --light-green: #48ada4;
+    --dark-green: #3C9089;
+    --cream: #f6f0fa;
+    --yellow: #FACE48;
+}
+
+
+.player-values__container {
+    /*display: flex;*/
+    /* flex-direction:row;*/
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    border-radius: 1x;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+}
+
+.player-values__title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    
+}
+/* 
+.LionessIntro_Image img {
+    float: right;
+    padding-right: 200px;
+
+}
+
+#player-purple-text {
+    color: var(--dark-purple);
+    font-weight: 500;
+    font-size: 2em;
+}
+
+#player-green-text {
+    color: var(--dark-green);
+    font-size: 2em;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: solid;
+}
+
+#player-yellow-text {
+    color: var(--yellow);
+    font-size: 2em;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: solid;
+
+} */

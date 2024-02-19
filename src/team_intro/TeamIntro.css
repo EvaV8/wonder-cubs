@@ -1,0 +1,39 @@
+/* Homework 2 - Team Introduction */
+.team_intro {
+    background-color:  #fd0952;
+    max-width: 60em;
+    padding: 3em 5em;
+    border-radius: 50px;
+    font-size: 1.3em;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto';
+    color:white;
+
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .team_member {
+    font-size: 1.5em;
+    border-bottom: #b4083c solid 1px;
+
+  }
+  
+  .team_intro h1 {
+    padding-bottom: 10px;
+    align-self:center;
+  }
+  
+  .intro_person {
+    margin-top: 1.3em;
+  }
+
+  .team_intro img {
+    width: 40px;
+    margin: 0 0.2em; 
+  }

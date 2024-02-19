@@ -1,0 +1,311 @@
+/* ALL STYLES FOR FindYourClub page are here*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+/*colors*/
+:root {
+    --dark-purple: #A769C9;
+    --light-purple:#dbbbf1;
+    --light-green: #48ada4;
+    --dark-green: #3C9089;
+    --cream: #f6f0fa;
+    --yellow: #FACE48;
+}
+
+/* main container */
+.findClub {
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--cream);
+}
+
+/* motivational-container */
+.motivational-container {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:1em;
+    background-color: var(--dark-green);
+}
+
+.motiv-image img {
+    width:100%;
+    height:100%
+}
+
+.motiv-text {
+    padding-right: 1em;
+    color: var(--cream);
+    font-weight: 900;
+    font-size: 3em;
+}
+
+#yellow-text {
+    color: var(--yellow);
+}
+
+/*clubs*/
+.section-title {
+    font-weight: 900;
+    font-size: 3em;
+    color:var(--dark-green);
+    margin: 4em 0;
+}
+
+.clubs-container{
+    font-size:1.3em;
+    background-color: var(--yellow);
+    width:70%;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 15rem;
+    flex-wrap: no-wrap;
+    border-radius: 2rem;
+}
+
+.search-container {
+    min-width:40%;
+    align-content: center;
+    display:flex;
+    justify-content: center;
+    position: relative;
+}
+/* //////////////////////////////// */
+  
+#clubs-search {
+    border: 3px solid var(--dark-green);
+    border-right: none;
+    background-color: var(--cream);
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: var(--dark-green);
+}
+
+#clubs-search{
+    color: var(--dark-green);
+}
+  
+.search-container button {
+    border: 1px solid var(--dark-green);
+    background: var(--dark-green);
+    text-align: center;
+    color: var(--cream);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* /////////////////////////////// */
+
+
+.clubs-results {
+    background-color: var(--light-purple);
+    min-width:60%;
+    min-height: 15rem;
+    padding-inline: 4em;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.clubs-title{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 800;
+    padding:1em 0;
+    color: var(--dark-green);
+}
+
+.club-name{
+    font-weight: 600;
+}
+
+.club-info {
+    padding-bottom: 2em;
+}
+
+.line {
+    border: 2px solid var(--dark-purple);
+}
+
+
+/* FIXME: */
+/*maps*/
+.map-container{
+    max-width:80vw;
+    gap: 2em;
+    flex-wrap: wrap;
+    margin: 1em 0;
+    display:flex;
+    justify-content: space-around;
+}
+
+.map-frame iframe{
+    border: 3px solid var(--dark-purple);
+    border-radius: 15px;
+
+}
+
+.map-frame iframe:hover{
+    border: 5px solid var(--dark-purple);
+}
+
+.region-selector {
+    background-color: var(--dark-green);
+    display:flex;
+    min-width: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 4em;
+    border-radius: 2rem;
+    padding-right: 1.2em;
+    padding-left: 0.5em;
+}
+
+.region-selector p {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: var(--cream);
+    padding-left: 0.5em;
+}
+
+#regions {
+    padding: 7px 24px;
+    font-size: 1.6em;
+    font-weight: 600;
+    background-color: var(--dark-purple);
+    color: var(--cream);
+    border:none;
+    border-radius: 4px;
+    display: inline-block;
+    appearance: none;
+    background-image:
+        linear-gradient(45deg, transparent 50%, var(--cream) 50%),
+        linear-gradient(135deg, var(--cream) 50%, transparent 50%),
+        linear-gradient(to right, var(--dark-purple), var(--dark-green));
+    background-position:
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - 10px) calc(1em + 2px),
+        100% 0;
+    background-size:
+        5px 5px,
+        5px 5px,
+        2.5em 2.5em;
+    background-repeat: no-repeat;
+}
+
+#regions:hover {
+    cursor:pointer;
+}
+
+.ImagesSection img{
+    width:100%;
+    margin-top:10em;
+}
+
+
+/*Responsive*/
+@media (max-width: 1550px) {
+    .motiv-text {
+        color: var(--cream);
+        font-weight: 800;
+        font-size: 2.4em;
+    }
+}
+
+@media (max-width: 1300px) {
+    .motiv-text,.section-title{
+        font-size: 2.3em;
+    }
+}
+
+@media (max-width: 1200px) {
+    .motivational-container {
+        flex-direction: column;
+    } 
+  
+    .motiv-text {
+        color: var(--cream);
+        font-weight: 700;
+        font-size: 1.8em;
+        margin-bottom:1em;
+        padding-left: 0.5em;
+    }
+}
+
+/* area-selector*/
+@media (max-width: 1200px) {
+    .section-title {
+        font-weight: 900;
+        font-size: 1.8em;
+        max-width:80%;
+    }
+    
+    .clubs-container{
+        width:90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        min-height: 15rem;
+        flex-wrap: no-wrap;
+    }
+    
+    .search-container {
+        background-color: var(--yellow);
+        min-width:100%;
+        align-content: center;
+        display:flex;
+        justify-content: center;
+        padding: 5rem 0;
+        border-top-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+    }
+    
+    .clubs-results {
+        min-width:100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+    }
+
+}
+
+#mobile {
+    display:none;
+}
+
+
+/* maps */
+@media (max-width: 700px) {
+    .map-frame iframe {
+        max-width: 22rem;
+        
+    }
+
+    .region-selector p{
+        font-size: 1.1em;
+        margin: 0;
+        padding-left: 0.2em;
+    }
+
+    .region-selector {
+        padding-right: 0.3em;
+        padding-left: 0em;
+        min-width:300px;
+        border-radius: 1.5rem;
+    }
+
+    #regions {
+        font-size: 1.1em;
+        padding: 7px 0px;
+        padding-left: 15px;
+        margin:0;
+    }
+
+    #desktop {
+        display:none;
+    }
+}

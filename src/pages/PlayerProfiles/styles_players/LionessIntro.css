@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+/*colors*/
+:root {
+    --dark-purple: #A769C9;
+    --light-purple: #dbbbf1;
+    --light-green: #48ada4;
+    --dark-green: #3C9089;
+    --cream: #f6f0fa;
+    --yellow: #FACE48;
+}
+
+
+.LionessIntro_text {
+    justify-content:space-evenly;
+    align-items: left;
+    line-height: 1;
+    width: fit-content;
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+
+}
+.LionessTitle {
+    color: var(--dark-purple);
+    justify-content: left;
+    padding-top: 2.7em;
+    font-size: 2.5em;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.LionessTitle:hover{
+    color: #9852fa;
+}
+.LionessIntro__container {
+    display: flex;
+    justify-content: space-around;
+
+   /* flex-direction:row;*/
+    width : 100%;
+    padding-left: 200px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    background-color: white;
+    border-radius: 1x; 
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+}
+
+.PlayerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35%;
+    margin: 0.5em;
+}
+.LionessIntro_Image {
+    /* display:flex;
+    float:right;
+    padding-right: 15em;
+    padding: 3%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        width: 40%;
+    
+        
+}
+#player-purple-text{
+    color: var(--dark-purple);
+    font-weight: 500;
+    font-size:2em;
+}
+
+#player-green-text {
+    color:var(--dark-green);
+    font-size: 2em;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: solid;
+}
+
+#player-yellow-text {
+    color:var(--yellow);
+    font-size: 2em;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-decoration:solid;
+
+}
+
+span:before {
+    background:linear-gradient(45deg,
+        #fc5c7d,
+        #6a82fb,
+        #fc5c7d);
+
+}

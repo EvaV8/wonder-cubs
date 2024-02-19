@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+.player-profiles{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.players-cards{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:4em;
+}
+
+/* title. Have just added some random styles here*/
+.profiles-title{
+    margin-top: 4em;
+    padding: 40px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 800;
+}

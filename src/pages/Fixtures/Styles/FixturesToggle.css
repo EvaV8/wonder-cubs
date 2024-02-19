@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+.fixturesToggle {
+    width: 100%;
+    min-height: 8vh;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tab-fixtures, .tab-standings {
+    flex: 1;
+    text-align: center;
+    width:200px;
+    align-items: center;
+    justify-content: center;
+    height: 50px ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-secondary{
+    background-color: var(--dark-purple);
+    border: var(--dark-purple);
+}
+
+.btn-secondary:hover{
+    background-color: #7B38A8;
+}
+
+
+

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+/* MAIN LOG IN PAGE & COMMON TO ALL PAGES STYLES*/
+/*colors*/
+:root {
+    --dark-purple: #A769C9;
+    --light-purple:#dbbbf1;
+    --light-green: #48ada4;
+    --dark-green: #3C9089;
+    --cream: #f6f0fa;
+    --yellow: #FACE48;
+}
+
+.main-window {
+    min-height: 26rem;
+    min-width: 35rem;
+    border-radius: 2rem;
+    padding: 2rem 1rem;
+    margin: 4em auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    box-shadow: 0px 0px 19px 4px var(--dark-green);
+}
+
+.page-title {
+    text-align: center;
+    color:var(--dark-green);
+    margin-bottom: 2rem;;
+}
+
+.form {
+    max-width: 80%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:column;
+}
+
+
+.form label {
+    display:block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.form input{
+    width:100%;
+    padding: 6px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.logSignBtn {
+    align-self: flex-end;
+    background-color: var(--light-green);
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 600;
+    border: none;
+    padding: 7px 21px;
+    margin-top: 30px;
+    cursor:pointer;
+    border-radius: 8px;
+}
+
+.logSignBtn:hover{
+    background-color: var(--dark-green)
+}
+
+/* LogIn page -  prompt to Sign up */
+.promo-register {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 4em;
+}
+
+#registerBtn {
+    margin:0;
+}
+
+/* For the other pages - Incorrect - Correct details - Signup */
+.other h3 {
+    margin: 20px 0;
+}
+
+.other button {
+    margin-top: 50px;
+}
+
+#error-msg {
+    color: rgb(214, 20, 20);
+    font-weight: 600;
+    text-align: center;
+}
+
+#register-msg {
+    color: var(--dark-purple);
+    font-weight: 600;
+    text-align: center;
+}
+
+/* login/correct  */
+.form img {
+    max-width:80%;
+    border-radius: 1rem;
+    align-self: center;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+    .main-window {
+        min-height: 18rem;
+        min-width: 22rem;
+    }
+
+    .promo-register, .main-window{
+        font-size: 1em;
+    }
+}
+

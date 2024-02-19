@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+.standings {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px;
+    min-height: 590px;
+    position: relative;
+  }
+  
+  .standings h1 {
+    margin-bottom: 20px;
+    color: var(--dark-green);
+    font-weight: bold;
+
+  }
+  
+  .buttonbottom {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+  }
+
+  .embed{
+    border-color: var(--dark-purple) !important;
+  }
+  

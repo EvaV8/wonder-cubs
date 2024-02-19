@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #A769C9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.nav-link{
+    color: #f6f0fa;
+}
+
+.nav-link:hover{
+   color:#dbbbf1; 
+}
+
+.navbar-brand{
+    font-family: 'Carter One', cursive;
+    margin-left: 25px;
+    color: #f6f0fa;
+    font-size: 2rem;
+}
+
+.navbar-brand:hover{
+    color: #dbbbf1;
+}
+
+.login-btn{
+    background-color: #48ada4;
+    border-color:#48ada4;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.login-btn:hover{
+    background-color: #3C9089;
+    border-color:#48ada4;
+}
+
+.login-btn:active{
+    background-color: #3C9089 !important;
+    border-color:#48ada4 !important;
+}
+
+.navbar-toggler.collapsed{
+    background-color: var(--dark-purple);
+}

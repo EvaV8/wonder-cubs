@@ -1,0 +1,37 @@
+.slider__box {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 8em;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__image {
+    width: 100%;
+    height: 300;
+    max-height : 600;
+    width: fit-content;
+    margin: 6em;
+}
+
+.img {
+    padding: 3%;
+    object-fit: contain;
+        
+
+}
+.btn-slider-next {
+    border: 0;
+    background-color: rgb(178, 40, 252);
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-slider-details {
+
+    border: 0;
+    background-color: rgb(178, 40, 252);
+    color: white;
+    border-radius: 10px;
+    }
