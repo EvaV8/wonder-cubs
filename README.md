@@ -1,12 +1,12 @@
-# Wonder Cubs - CFG DEGREE GROUP PROJECT - TEAM 4 
+# Wonder Cubs ⚽ 🤾🏾‍♀️ 🦁- CFG DEGREE GROUP PROJECT - TEAM 4 
 
 **General info**
-A site to inspire and encourage young women to play football created a part of the a full-stack bootcamp
+A site to inspire and encourage young women to play football created as part of the a full-stack bootcamp
 
 Find your local club & Login/Signup pages were originally created by myself
 
 
-# Full stack CFG Degree 2023 | Group 4 : Celina, Deidre, Eva, Sazia, Steph
+# Full stack CFG Degree 2023 | Group 4 
 
 
 ## Technologies used: 
@@ -23,6 +23,8 @@ Find your local club & Login/Signup pages were originally created by myself
 - npx json-server --watch data_users/usersdb.json --port 8010
 - npm start
 
+ ---
+ ---
 
 # Getting Started with Create React App
 
