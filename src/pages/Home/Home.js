@@ -15,7 +15,7 @@ const Home = () => {
           <div className="welcome-title">Welcome to Wonder Cubs!</div>
           <p>
               A site for the next generation of Lionesses. Are you interesed in learning
-              about your favourite team's games. Just looking for a club near you?
+              about your favourite team's games? Just looking for a club near you?
           </p>
         </div>
         <div className="video_welcomeBox">
@@ -26,21 +26,20 @@ const Home = () => {
         </div>
       </div>
       <div className="buttonBox">
-        <div className="button1">
-          <img className="pic1" src={Football1} alt="Girls playing football" />
+        <div className="btn-card">
+          <img className="pic" src={Football1} alt="Girls playing football" />
           <div className="content_align">
-          <div className="card-heading">Meet the new members</div>
+            <div className="card-heading">Meet the new members</div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
-
           <a className="anchor_button" href="/blog">
             Get to know them
           </a>
         </div>
-        <div className="button2">
-          <img className="pic2" src={Football3} alt="Girls playing football" />
+        <div className="btn-card">
+          <img className="pic" src={Football3} alt="Girls playing football" />
           <div className="content_align">
             <div className="card-heading">Mentor of the Month</div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -50,23 +49,22 @@ const Home = () => {
             Read more
           </a>
         </div>
-        <div className="button3">
-          <img className="pic3" src={Football2} alt="Girls playing football" />
+        <div className="btn-card">
+          <img className="pic" src={Football2} alt="Girls playing football" />
           <div className="content_align">
             <div className="card-heading">How to join us</div>
             <p>
               Loremipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
-
           <a className="anchor_button" href="/login">
             Click to join
           </a>
         </div>
       </div>
-      <div className="furtherBox">
-        <div className="pic_furtherBox">
 
+      {/* <div className="furtherBox">
+        <div className="pic_furtherBox">
           <img className="pic4" src={Football23} alt="Girls playing football" />
           <div>
           <div className="card-heading">Latest news</div>
@@ -75,7 +73,6 @@ const Home = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-
           <a className="anchor_button" href="/blog">
             Find out more
           </a>
@@ -88,7 +85,7 @@ const Home = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

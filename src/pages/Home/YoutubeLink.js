@@ -6,7 +6,7 @@ const YoutubeLink = ({ embedId }) => (
     width="560"
     height="315"
     src={`https://www.youtube.com/embed/${embedId}`}
-    frameborder="0"
+    frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowFullScreen
     title="Lionesses - Champions of Europe 2022"
