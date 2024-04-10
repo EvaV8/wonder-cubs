@@ -8,7 +8,7 @@ const Map = ({ region }) => {
                 title="map-southWest"
                 width="600"
                 height="400"
-                zoom='18'
+                zoom='21'
                 // zoom={zoom}
                 referrerPolicy="no-referrer-when-downgrade"
                 src={`https://www.google.com/maps/embed/v1/search?key=${apiKey}&q=junior+girls+football+clubs+in+${region}`}
