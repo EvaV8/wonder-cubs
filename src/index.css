@@ -1,9 +1,4 @@
-
 /* ------------------------------LIONESSES SITE----------------------------------------- */
-/* Some basic styles for homework-2.
-Will change when working on our actual site */
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@400;500;700&family=Ubuntu:wght@300;400&display=swap');
 
 
@@ -35,6 +30,9 @@ p {
   margin-bottom: 0;
 }
 
+
+/* Some basic styles for homework-2.
+Will change when working on our actual site */
 /* .main_container{
   height:100vh;
   display:flex;
