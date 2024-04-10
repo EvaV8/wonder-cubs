@@ -7,7 +7,6 @@ import Standings from './Standings';
 import '../Styles/FixturesHome.css';
 
 //Component to bring all fixture components together
-//Steph Williams 26.05
 
 //This function allows us to toggle between tabs(containers) fixtures and standings by clicking on the buttons
 //If the Fixtures button is pressed the Fixtures container is diplayed

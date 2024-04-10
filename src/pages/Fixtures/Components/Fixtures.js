@@ -6,7 +6,6 @@ import England from '../Images/EnglLatest.png';
 import '../Styles/Fixtures.css';
 
 //Component to show the current fixtures of the England Women's football team
-//Steph Williams 26.05
 //Bootstrap used for cards
 //Data hard coded
 

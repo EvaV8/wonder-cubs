@@ -23,6 +23,11 @@ Find your local club & Login/Signup pages were originally created by myself
 - npx json-server --watch data_users/usersdb.json --port 8010
 - npm start
 
+**Instructions for deployment through ngrok**
+- Locate the standalone executable **ngrok.exe** in System32
+- In my case the path is: C:\Windows\System32
+- Add authtoken from (https://dashboard.ngrok.com/get-started/setup/windows) 
+- ngrok http http://localhost:8080    NOte: depends on what port the project is listening to
  ---
  ---
 

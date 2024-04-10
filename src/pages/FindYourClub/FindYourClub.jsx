@@ -30,8 +30,6 @@ const FindYourClub = () => {
       // console.log(response);
       setClubs(response.data)
       // console.log(clubs.results);
-      console.log("NOTE: remember to run in your terminal: node proxyServer.js")
-      console.log("and then run again in a new one: npm start")
     }).catch(error => {
       console.log(error)
     })
@@ -51,7 +49,7 @@ const FindYourClub = () => {
             type="search" id='clubs-search' name='clubs-search'
             placeholder='Enter postcode or city...'
             value={ chosenCity }
-            onChange={ e=> setChosenCity(e.target.value)}
+            onChange={ e => setChosenCity(e.target.value)}
           />
           <button onClick={getClub}><i className="fa fa-search"></i></button>
         </div>

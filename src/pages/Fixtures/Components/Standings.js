@@ -2,7 +2,6 @@ import React from "react";
 import '../Styles/Standings.css';
 
 //This component loads the Standings when set to active
-//Steph Williams 26.05
 //Loads an iframe which calls an api from footstats.org
 
 const Standings = ({ setActiveTab }) => {

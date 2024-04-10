@@ -3,7 +3,6 @@ import '../Styles/FixturesToggle.css';
 import Standings from './Standings';
 
 //This function sets the behaviour of the buttons and what do do when they are clicked
-//Steph Williams 25.05
 
 const FixturesToggle = ({ activeTab, setActiveTab }) => {
   const handleTabClick = (tab) => {
