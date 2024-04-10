@@ -1,11 +1,3 @@
-// INSTRUCTIONS: to make this server file work you need to always:
-// type inside your terminal the following:
-
-// node proxyServer.js
-
-// and then run the usual in another terminal:
-// npm start
-
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import './styles/FindYourClub.css';

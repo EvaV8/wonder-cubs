@@ -12,16 +12,14 @@ const Home = () => {
     <div className="MainBanner">
       <div className="welcomeBox">
         <div className="text_welcomeBox">
-          <div>
-            <div className="welcome-title">Welcome to Wonder Cubs!</div>
-            <p>
-              Pellentesque pellentesque placerat leo vitae luctus. Nam sodales
-              lobortis est, a tristique tortor lobortis at. 
-            </p>
-          </div>
+          <div className="welcome-title">Welcome to Wonder Cubs!</div>
+          <p>
+              A site for the next generation of Lionesses. Are you interesed in learning
+              about your favourite team's games. Just looking for a club near you?
+          </p>
         </div>
         <div className="video_welcomeBox">
-        <div className="card-heading">The Lionesses are the Champions!</div>
+          <div className="card-heading">The Lionesses are the Champions!</div>
           <div className="youtube">
             <YoutubeLink embedId="pGxL8xE1pZM" />
           </div>
@@ -74,8 +72,7 @@ const Home = () => {
           <div className="card-heading">Latest news</div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua; Nulla
-              a magna eget metus maximus facilisis et nec dolor.
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
 
@@ -88,10 +85,7 @@ const Home = () => {
             <img src={Logo} alt="Football boot on a football" />
             <div className="card-heading">Our mission!</div>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua; Nulla
-              a magna eget metus maximus facilisis et nec dolor. Pellentesque pellentesque placerat leo vitae luctus. Nam sodales
-              lobortis est, a tristique tortor lobortis at. Nulla sit amet nibh
-              sed elit tempus tempor eget at felis.</p>
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
       </div>

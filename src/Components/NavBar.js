@@ -19,9 +19,9 @@ function NavBar() {
                 <Nav.Link href="/fixtures">Lioness Fixtures</Nav.Link>
                 <Nav.Link href="/playerprofiles">Meet the Lionesses</Nav.Link>
                 <Nav.Link href="/findyourclub">Find your club</Nav.Link>
-                <Nav.Link href="/blog">News & Activities</Nav.Link>
+                {/* <Nav.Link href="/blog">News & Activities</Nav.Link> */}
               </Nav>
-              <Button className="login-btn" href="/login">Login/Sign Up</Button>
+              <Button className="login-btn" href="/login">Log in / Sign up</Button>
             </Navbar.Collapse>
           </Container>
       </Navbar>
